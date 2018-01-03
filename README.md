@@ -10,9 +10,9 @@
 ```bash
 $ mkdir ~/myapp && cd ~/myapp
 $ curl -LO https://raw.githubusercontent.com/bitnami/bitnami-docker-laravel/master/docker-compose.yml
-$ docker-compose up
+$ docker-compose up -d
 ```
-
+要几分钟浏览器才可以看到
 ## Why use Bitnami Images?
 
 * Bitnami closely tracks upstream source changes and promptly publishes new versions of this image using our automated systems.
