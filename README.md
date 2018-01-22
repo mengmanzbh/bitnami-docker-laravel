@@ -11,6 +11,9 @@
 $ mkdir ~/myapp && cd ~/myapp
 $ curl -LO https://raw.githubusercontent.com/bitnami/bitnami-docker-laravel/master/docker-compose.yml
 $ docker-compose up -d
+```组合命令
+$ mkdir laravel && cd laravel && curl -LO https://raw.githubusercontent.com/bitnami/bitnami-docker-laravel/master/docke
+r-compose.yml && docker-compose up -d
 ```
 要几分钟浏览器才可以看到
 ## Why use Bitnami Images?
